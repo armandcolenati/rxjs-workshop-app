@@ -83,4 +83,5 @@ export class AppComponent implements OnInit {
     private getStreamOfNumbers(): Observable<number> {
         return of(1, 12, 3, 6, 19, 9, 24);
     }
+
 }
